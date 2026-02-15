@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Hardhat
+smart_contract/cache/
+smart_contract/artifacts/
+smart_contract/deployed/
+smart_contract/abi.json
+
+# Frontend build
+client/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
