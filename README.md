@@ -1,4 +1,4 @@
-# 🗳️ BlockVote — Decentralized E-Voting System
+# BlockVote — Decentralized E-Voting System
 
 A transparent, secure, and tamper-proof election system built on **Ethereum Smart Contracts**. Every vote is recorded immutably on-chain, preventing fraud and ensuring verifiable results.
 
@@ -9,20 +9,20 @@ A transparent, secure, and tamper-proof election system built on **Ethereum Smar
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🔒 **Secure Voting** | Smart contract enforces one-vote-per-address rule |
-| 👑 **Admin Controls** | Add candidates, authorize voters, start/end elections |
-| 🌐 **Transparent Results** | Publicly verifiable on-chain vote counts |
-| 🛡️ **Tamper-Proof** | Immutable blockchain records — no vote manipulation |
-| 🦊 **MetaMask Integration** | Seamless wallet connection via ethers.js |
-| 📊 **Live Results** | Animated bar chart with winner highlighting |
+| **Secure Voting** | Smart contract enforces one-vote-per-address rule |
+| **Admin Controls** | Add candidates, authorize voters, start/end elections |
+| **Transparent Results** | Publicly verifiable on-chain vote counts |
+| **Tamper-Proof** | Immutable blockchain records — no vote manipulation |
+| **MetaMask Integration** | Seamless wallet connection via ethers.js |
+| **Live Results** | Animated bar chart with winner highlighting |
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 blockchain/
@@ -47,7 +47,7 @@ blockchain/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -84,7 +84,7 @@ npx hardhat compile
 npx hardhat test
 ```
 
-You should see **14/14 tests passing** ✅
+You should see **14/14 tests passing**.
 
 ### 4. Start the Local Blockchain
 
@@ -95,7 +95,7 @@ cd smart_contract
 npx hardhat node
 ```
 
-> ⚠️ **Keep this terminal open** — it runs the local Ethereum node. You'll see a list of 20 test accounts with their private keys.
+> **Important:** Keep this terminal open — it runs the local Ethereum node. You'll see a list of 20 test accounts with their private keys.
 
 ### 5. Deploy the Smart Contract
 
@@ -108,7 +108,7 @@ npx hardhat run scripts/deploy.js --network localhost
 
 You should see:
 ```
-✅ Voting contract deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Voting contract deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 ```
 
 ### 6. Start the Frontend
@@ -124,7 +124,7 @@ Open **http://localhost:5173** in your browser.
 
 ---
 
-## 🦊 MetaMask Configuration
+## MetaMask Configuration
 
 ### Add the Hardhat Network
 
@@ -148,14 +148,14 @@ Open **http://localhost:5173** in your browser.
 
 ---
 
-## 🎮 Usage Walkthrough
+## Usage Walkthrough
 
 ### As Admin (Account #0)
 
 1. Connect wallet → You'll see the **Admin Dashboard**
 2. **Add Candidates** — e.g., "Alice", "Bob"
 3. **Authorize Voters** — paste Account #1's address
-4. Click **Start Election** 🚀
+4. Click **Start Election**
 
 ### As Voter (Account #1)
 
@@ -168,11 +168,11 @@ Open **http://localhost:5173** in your browser.
 ### View Results
 
 - Results are visible as an animated **bar chart**
-- Once the admin clicks **End Election**, final results are displayed with a 🏆 winner badge
+- Once the admin clicks **End Election**, final results are displayed with a winner badge
 
 ---
 
-## 🧪 Smart Contract API
+## Smart Contract API
 
 | Function | Access | Description |
 |---|---|---|
@@ -186,7 +186,7 @@ Open **http://localhost:5173** in your browser.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Smart Contract**: Solidity 0.8.19
 - **Development Environment**: Hardhat 2.19.5
@@ -195,5 +195,3 @@ Open **http://localhost:5173** in your browser.
 - **Styling**: Vanilla CSS (dark theme with glassmorphism)
 
 ---
-
-
